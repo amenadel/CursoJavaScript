@@ -17,4 +17,30 @@
                                 É possível declarar funções em variáveis;
             */ 
             
+        function escreverNoConsole(){
+            console.log("Escrevendo no conosle!");
+        }
+
+        escreverNoConsole()
+
+        const textoNoConsole = function()
+        {
+            console.log("Texto no console!");
+        }
+
+        textoNoConsole();
+
+        const textPorParametro =  function(texto)
+        {
+            console.log(texto)
+        }
+
+        textPorParametro("Testando por parâmetro!")
+
+
+
+
+
+
+
 
