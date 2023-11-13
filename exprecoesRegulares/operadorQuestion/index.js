@@ -1,14 +1,16 @@
-// operador?
+//Operador question ? 
+
 
 
 //Faz com que o dígito anterior seja opcional
+let optional = /Prova\s?\d?/
+
+console.log(optional.test("Prova"))
+console.log(optional.test("Prova 1"))
+console.log(optional.test("Prova 2"))
 
 
-let opcional = /Prova\s?\d?/
+const padrao  = /Abacax?i/
 
-
-console.log(opcional.test("Prova"))
-console.log(opcional.test("Prova 2"))
-console.log(opcional.test("Prova 3"))
-
-
+console.log(padrao.test("Abacaxi"))
+console.log(padrao.test("Abacai"))
