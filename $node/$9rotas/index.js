@@ -2,7 +2,7 @@
 
 //Nos sites e nas APIs temos oque chamamos de rotas
 
-//  Que é basicamento a URL que queremos acessar 
+//Que é basicamento a URL que queremos acessar 
 
 //Porém quando tratamos de uma API chamamos as URLS de rota
 
